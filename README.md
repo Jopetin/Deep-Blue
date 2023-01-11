@@ -1,6 +1,6 @@
 # Deep Blue
 
-The program simulates the flock behaviour in a school of fish.
+The program simulates the flock behaviour in a school of fish. It was written completely in Scala using the ScalaFX library for the GUI elements.
 
 <img src="pictures/1.png" alt="drawing" width="300"/>
 
