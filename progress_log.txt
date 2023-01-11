@@ -1,0 +1,13 @@
+First checkpoint (16.3)
+
+Firstly apologies for anyone going through the repository history, some initial commits were large and the messages were general as many small changes were simultaneously implemented.
+The project has kicked of well, I ended up partially flipping the working order of things after realising that for example the file formatter etc. is hard to develop without knowing what parameters it should
+be also to store and so forth.
+
+So I started with the general skeleton of the project, creating stub versions of all the needed classes. First things to actually complete were the smaller datatypes like 'Position' and 'Vec'.
+
+After that I figured that the easier approach was to then implement a basic version of the UI which would then allow for the development of the 'Tuna' / 'Creature' (the actual simulation objects)
+
+So in the current version there is a basic UI that also allows spawning additional fish. The Tuna currently avoid borders and each other. The simulation calculations are done concurrently to the UI.
+
+It has taken about 20 hours to get this far. I'd say I'm nicely ahead on the schedule, next steps are the rest of the behaviour elements and then finalizing the UI.
